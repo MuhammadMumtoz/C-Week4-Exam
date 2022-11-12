@@ -2,6 +2,9 @@ public class Square : Rectangle
 {
     double _side = 1.0;
     public Square() : base() { }
+    public Square(double side){ 
+        _side = side;
+    }
     public Square(double side, Color color, bool filled) //: base(color, filled)
     {
         _side = side;
