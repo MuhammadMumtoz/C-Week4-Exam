@@ -2,6 +2,9 @@ class Circle : Shape{
     double _radius=1.0;
     const double pi=3.14;
     public Circle():base(){}
+    public Circle(double radius){
+        _radius = radius;
+    }
     public Circle(double radius, Color color, bool filled):base(color,filled){
         _radius = radius;
     }    
